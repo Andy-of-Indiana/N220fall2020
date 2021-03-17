@@ -11,7 +11,6 @@ function draw() {
 
     xPos.push( mouseX );
     yPos.push( mouseY );
-
     xPos.shift();
     yPos.shift();
 
