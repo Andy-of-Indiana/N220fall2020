@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bad word catcher with loops</title>
+  </head>
+  <body>
+    <p>
+      Please enter a sentence, please note that bad words are: clear, water,
+      tires
+    </p>
+    <input id="txtSentence" placeholder="e.g. The cat walked backwards" />
+    <button
+      onclick="check(); document.getElementById('txtSentence').value = ''"
+    >
+      Check for Bad Words
+    </button>
+    <div id="dvResult"></div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

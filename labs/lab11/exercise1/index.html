@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Its just average</title>
+  </head>
+  <body>
+    <p>Please add numbers seperated by commas to find the sum and average</p>
+    <!--1. Takes in a list of comma-separated numbers from the user
+-->
+    <input id="txtNumbers" placeholder="Numbers" />
+    <!--7. Removes the text from the input so the user can type in new numbers
+-->
+    <button
+      onclick="calculate(); document.getElementById('txtNumbers').value = ''"
+    >
+      Calculate Sum & Average
+    </button>
+    <div id="dvAnswer"></div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
