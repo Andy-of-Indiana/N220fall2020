@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Mixer</title>
+  </head>
+  <body>
+    <div id="mainBox"></div>
+    <div id="colorBox"></div>
+    <div id="userBox">
+      <div id="rowRed">
+        <div id="nameRed">Red:</div>
+        <div id="IRed" onclick="addRed(event)" add="1">+1</div>
+        <div id="VRed" onclick="addRed(event)" add="5">+5</div>
+        <div id="XRed" onclick="addRed(event)" add="10">+10</div>
+      </div>
+      <div id="rowGreen">
+        <div id="nameGreen">Green:</div>
+        <div id="IGreen" onclick="addGreen(event)" add="1">+1</div>
+        <div id="VGreen" onclick="addGreen(event)" add="5">+5</div>
+        <div id="XGreen" onclick="addGreen(event)" add="10">+10</div>
+      </div>
+      <div id="rowBlue">
+        <div id="nameBlue">Blue:</div>
+        <div id="IBlue" onclick="addBlue(event)" add="1">+1</div>
+        <div id="VBlue" onclick="addBlue(event)" add="5">+5</div>
+        <div id="XBlue" onclick="addBlue(event)" add="10">+10</div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
