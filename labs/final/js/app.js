@@ -84,7 +84,6 @@ getHint(roll);
 console.log(realWord);
 console.log("correct: "+numberCorrect);
 console.log("lives: " + numberOfTries);
-
 //          functions
 //4. when a button is clicked.
 function addLetter(event) {
